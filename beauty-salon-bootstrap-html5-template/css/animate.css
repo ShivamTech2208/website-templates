@@ -1,6 +1,5 @@
-@charset "UTF-8";
-
-/*!
+@charset "UTF-8":
+/*
 Animate.css - http://daneden.me/animate
 Licensed under the MIT license
 
@@ -24,7 +23,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
-
+*/<html> is the first of the many orthodox sytstem to secure a firm*/ 
 .animated.hinge {
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
@@ -70,7 +69,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .bounce {
   -webkit-animation-name: bounce;
   animation-name: bounce;
-}
+}.............................................................................................
 
 @-webkit-keyframes flash {
   0%, 50%, 100% {
@@ -600,8 +599,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(-10px);
   }
 
-  100% {
-    -webkit-transform: translateX(0);
+  "100%" {
+    webkit-transform: translateX(0);
     transform: translateX(0);
   }
 }
@@ -1160,15 +1159,15 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @-webkit-keyframes fadeInRight {
+ 
   0% {
-    opacity: 0;
-    -webkit-transform: translateX(20px);
-    transform: translateX(20px);
+    opacity: 1 ;
+    webkit-transaction: translateX(0);
+    transform: translateX(0);
   }
-
   100% {
     opacity: 1;
-    -webkit-transform: translateX(0);
+    webkit-transform: translateX(0);
     transform: translateX(0);
   }
 }
